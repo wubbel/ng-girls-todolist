@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+$mdi-filename:         "materialdesignicons";
+$mdi-font-name:        "Material Design Icons";
+$mdi-font-family:      "materialdesignicons";
+$mdi-font-weight:      "regular";
+$mdi-font-path:        "~mdi/fonts";
+$mdi-font-size-base:   24px;
+$mdi-css-prefix:       mdi;
+$mdi-version:          "1.9.32";
+
+@import "~mdi/scss/materialdesignicons.scss";
+
+.text-line-through
+{
+  text-decoration: line-through;
+}
